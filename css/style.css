@@ -68,8 +68,10 @@ a{
 }
 .principal a{
     color: #fff;
-    text-decoration: underline;
-    font-weight: normal;
+    font-weight: bold;
+}
+.principal a:hover{
+    color: #2a0074;
 }
 .principal li{
     display: inline-block;
@@ -82,4 +84,7 @@ button{
     border: solid 1px transparent;
     padding: 2px 20px;
     border-radius: 3px;
+}
+input:focus{
+    background-color: #bbb2cfd2;
 }
